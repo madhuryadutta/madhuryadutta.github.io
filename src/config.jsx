@@ -1,5 +1,5 @@
 const config = {
-    apiBaseUrl: 'http://127.0.0.1:8000',
+    apiBaseUrl: 'https://portfolio.databytedigital.com',
 };
 
 export default config;
