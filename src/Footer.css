@@ -1,0 +1,23 @@
+/* Footer.css */
+.footer {
+    background: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.copy {
+    margin: 0;
+}
+
+.copy a {
+    color: #ffeb3b;
+    text-decoration: none;
+}
+
+.copy a:hover {
+    text-decoration: underline;
+}
