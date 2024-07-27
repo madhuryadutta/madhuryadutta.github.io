@@ -29,8 +29,6 @@ const Portfolio = () => {
 
     if (!data) return (
         <div className="loading-message text-center mt-5">
-            <h1 className="display-4">⏳ Loading... Please be patient!</h1>
-            <p>Your futuristic portfolio is almost ready. Just a moment!</p>
             <img src="/images/loading.gif" alt="Loading Icon" className="img-fluid" />
         </div>
     );
@@ -57,6 +55,7 @@ const Portfolio = () => {
                 <img src={data.image} alt="Personal Photo" className="personal-photo" />
             </header>
 
+            {/* Content Sections */}
             {data.projects && data.projects.length > 0 && (
                 <section>
                     <h2 className="text-danger">Projects</h2>
@@ -203,3 +202,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
